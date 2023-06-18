@@ -1,0 +1,33 @@
+body {
+    background-color: whitesmoke;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.home,
+.notFound,
+.posts,
+.users-list,
+.users{
+    text-align: center;
+}
+.user {
+    text-align: left;
+}
+
+.error-header {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+
+.error-message {
+    text-align: center;
+    color: olive;
+    font-style: italic;
+    text-decoration: underline;
+}
